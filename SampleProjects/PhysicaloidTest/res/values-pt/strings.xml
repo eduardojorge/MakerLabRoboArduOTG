@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robô Ardu OTG</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="text_app">Atividade Box</string>
+
+    <string name="erro_MCU">" Não foi possível Conectar"</string>
+
+    <string name="buttonNext">Próximo</string>
+    <string name="buttonUpload">Enviar Hex</string>
+
+    <string name="buttonEndActivity">Fim Atividade</string>
+
+
+
+    <string name="btnConnect">Conectado</string>
+    <string name="btnDisconnect">Desconectado</string>
+
+    <string name="activity_1">"Primeiro Nível"</string>
+
+    <string name="activity_2">"Segundo Nível"</string>
+
+    <string name="app_rate">"Avaliar App"</string>
+
+    <string name="turnOnled">Ligar Led</string>
+
+    <string name="turnOffled">Desligar Led</string>
+
+
+    <string-array name="activity_1">
+        <item>Primeiro Exemplo;primeiro_exemplo.ino.standard.hex;primeiro_exemplo.ino;primeiro_exemplo.prot;primeiro_exemplo;#include "Robotica_Cognitiva.h"</item>
+        <item>1 - Ligar e desligar o Abajur;condicao_butao.ino.standard.hex;condicao_butao.ino;condicao_butao.prot;Condicao_Butao;if (...) {  }</item>
+        <item>2 - Bricar do Jogo de Dado;dado.ino.standard.hex;dado.ino;dado.prot;dado;if (...) {  }</item>
+        <item>3 - Tocar um Som surpresa;som_surpresa.ino.standard.hex;som_surpresa.ino;som_surpresa.prot;som_surpresa;if (...) {  }</item>
+        <item>4 - Contar até três;contar_ate_tres.ino.standard.hex;contar_ate_tres.ino;contar_ate_tres.prot;contar_ate_tres;if (...) { delay(...) }</item>
+        <item>5 - Apresentar Sentimento Feliz depois de três clicks;tres_clickes.ino.standard.hex;tres_clickes.ino;tres_clickes.prot;tres_clickes;int x = 0</item>
+        <item>6 - Contar até 3 usando o comando for;comando_for.ino.standard.hex;comando_for.ino;comando_for.prot;comando_for;for(... ... ...){  }</item>
+        <item>7 - Acionar um alarme depois de 1 minuto;alarme.ino.standard.hex;alarme.ino;alarme.prot;alarme;long tempoInicial = millis()</item>
+        <item>8 - Apresentar símbolo de um raio através de dupla condição;comando_and.ino.standard.hex;comando_and.ino;comando_and.prot;comando_and;if ( (...) and (...) ){  } </item>
+        <item>9 - Imprimir Ardu no Display enquanto um objeto próximo;comando_equanto.ino.standard.hex;comando_equanto.ino;alarme.prot;comando_equanto;while(...){  } </item>
+        <item>10 - Meu RoboArdu;ardu.ino.standard.hex;ardu.ino;alarme.prot;ardu;...</item>
+        <item>11 - Meu RoboArdu Iteração por Celular;serial.ino.standard.hex;serial.ino;alarme.prot;serial;Serial.read()</item>
+
+    </string-array>
+
+
+    <string-array name="activity_2">
+        <item>Ligar Led Serial;ligarledserial.ino.standard.hex;ligarledserial.ino;LED_Botao.prot;LED_Botao_Serial</item>
+        <item>Piscar Led Serial;Piscar_LED_Serial.ino.standard.hex;Piscar_LED_Serial.ino;Piscar_LED_Serial.prot;Piscar_LED_Serial</item>
+
+    </string-array>
+
+    <string name="rate_title">Avaliar Aplicação</string>
+    <string name="rate_description">Gostou do App. Avalie o Arduino Robô Ardu OTG </string>
+    <string name="rate_cancel">Cancela</string>
+    <string name="rate_ok">Avaliar Agora</string>
+
+
+
+
+    <string name="country_prompt">Choose a country</string>
+    <string-array name="country_arrays">
+        <item>ARDUINO_UNO</item>
+        <item>ARDUINO_DUEMILANOVE_328</item>
+        <item>ARDUINO_DUEMILANOVE_168</item>
+        <item>ARDUINO_NANO_328</item>
+        <item>ARDUINO_NANO_168</item>
+        <item>ARDUINO_MEGA_2560_ADK</item>
+
+        <item>ARDUINO_MEGA_1280</item>
+    </string-array>
+
+
+
+</resources>

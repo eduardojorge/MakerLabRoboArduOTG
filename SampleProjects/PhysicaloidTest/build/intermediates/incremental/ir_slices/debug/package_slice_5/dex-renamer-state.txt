@@ -1,0 +1,4 @@
+#Mon Nov 18 07:26:40 BRST 2019
+base.0=D\:\\projetos_android\\ArduinoRoboMML\\SampleProjects\\PhysicaloidTest\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

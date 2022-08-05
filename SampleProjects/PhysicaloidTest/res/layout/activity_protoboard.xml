@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código Protoboard"
+        android:textSize="24sp"
+        android:layout_marginLeft="15dp"/>
+
+    <!--<EditText android:id="@+id/editTextCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:scrollbars="vertical"
+        android:editable="false" android:focusable="false">
+        <requestFocus />
+    </EditText>-->
+
+    <Button
+        android:id="@+id/buttonMMLBox"
+        android:layout_width="137dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="139dp"
+        android:drawableLeft="@mipmap/ic_launcher"
+
+        android:text="MML Box" />
+
+
+    <Button
+        android:id="@+id/buttonArduino"
+        android:layout_width="137dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="36dp"
+        android:drawableLeft="@drawable/ic_arduino"
+        android:text="Arduino" />
+
+
+   <!-- <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/VideoView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-271dp"
+        android:layout_marginEnd="260dp"
+        android:text="Next" />-->
+
+    <VideoView
+        android:id="@+id/VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"></VideoView>
+
+</RelativeLayout>

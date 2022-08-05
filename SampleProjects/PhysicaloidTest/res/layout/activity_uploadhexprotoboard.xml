@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+
+    <TextView
+        android:id="@+id/textUpload"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="24dp"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:textSize="20dp" >
+
+
+    </TextView>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+
+
+        style="@android:style/Widget.ProgressBar.Horizontal"
+
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+
+
+
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/progressbar"
+        android:layout_alignTop="@id/progressbar"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:text="0%"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/progressbar"
+        android:layout_alignTop="@id/progressbar"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="26dp"
+        android:text="100%"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/editTextMsg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignTop="@id/buttonUpload"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="73dp"
+        android:background="@color/colorPrimary"
+
+        android:ems="10"
+
+
+
+        android:padding="15dp"
+        android:textSize="16dip"
+        android:text="Click em enviar Hex. A primeira vez será feita a permissão para uso da comunicação USB. Click novamente para o enviar após este processo.">
+
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@id/progressbar"
+
+        android:layout_marginTop="72dp"
+
+        android:text="Upload"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editTextMsg"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="150dp"
+
+        android:text="Next" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="282dp"
+        android:text="Upload Hex" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="90dp"
+        android:background="@drawable/selector_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt" />
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.minimakerlabrobo"
+    android:versionCode="7"
+    android:versionName="1.6">
+
+
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+   <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+     <uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+
+
+     <application
+         android:allowBackup="true"
+         android:icon="@mipmap/ic_launcher"
+         android:label="@string/app_name"
+         android:theme="@style/AppTheme" >
+
+         <provider
+             android:name="android.support.v4.content.FileProvider"
+             android:authorities="${applicationId}.provider"
+             android:exported="false"
+             android:grantUriPermissions="true">
+             <meta-data
+                 android:name="android.support.FILE_PROVIDER_PATHS"
+                 android:resource="@xml/provider_paths"/>
+         </provider>
+         <activity
+             android:name="com.example.physicaloidtest.PhysicaloidTestActivity"
+             android:label="@string/app_name" >
+
+
+         </activity>
+
+
+         <activity
+             android:name="com.minimakerlabrobo.voice.MainActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+
+
+         </activity>
+
+         <activity
+             android:name="com.minimakerlabrobo.mmlbox.ProtoboardMMLBoxActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+
+         </activity>
+
+
+         <activity
+             android:name="com.minimakerlabrobo.MainActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+
+
+
+         </activity>
+
+         <activity
+             android:name="com.minimakerlabrobo.arduino.ProtoboardArduinoActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+
+         </activity>
+
+         <activity
+             android:name="com.minimakerlabrobo.serial.BlinkLedActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+
+
+
+         </activity>
+         <activity
+             android:name="com.minimakerlabrobo.serial.TurnONActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+
+
+
+
+
+
+         </activity>
+
+         <activity
+             android:name="com.minimakerlabrobo.bluetooth.MainActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait" >
+
+
+
+
+
+
+
+
+         </activity>
+
+         <activity
+
+
+             android:name="com.minimakerlabrobo.SplashScreenActivity"
+             android:label="@string/app_name"  android:configChanges="orientation"
+             android:screenOrientation="portrait">
+
+
+
+         </activity>
+
+         <activity
+             android:name="com.minimakerlabrobo.ProtoboardActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait">
+
+         </activity>
+
+         <activity
+             android:name="com.minimakerlabrobo.UploadHexActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait">
+
+         </activity>
+
+         <activity
+             android:name="com.minimakerlabrobo.CodeArduinoActivity"
+             android:label="@string/app_name"
+             android:configChanges="orientation"
+             android:screenOrientation="portrait">
+
+         </activity>
+
+
+
+     </application>
+
+ </manifest>

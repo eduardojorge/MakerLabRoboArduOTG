@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robô Ardu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="buttonNext">Next</string>
+    <string name="text_app">Box Activity</string>
+
+
+
+    <string name="btnConnect">Connected</string>
+    <string name="btnDisconnect">Desconnected</string>
+
+    <string name="erro_MCU">" Can't open connection to MCU"</string>
+
+
+    <string name="activity_1">"Frist Level"</string>
+
+
+    <string name="activity_2">"Second Level"</string>
+
+    <string name="app_rate">"App Rate"</string>
+
+
+
+
+
+    <string name="buttonUpload">Upload</string>
+
+    <string name="buttonEndActivity">Activity End</string>
+
+
+    <string name="turnOnled">Turn ON</string>
+
+    <string name="turnOffled">Turn Off</string>
+
+
+
+
+
+    <string-array name="activity_1">
+        <item>Blink LED;Piscar_LED.ino.standard.hex;Piscar_LED.ino;Piscar_LED.prot;Piscar_LED</item>
+        <item>Ring the Bell;Campainha.ino.standard.hex;Campainha.ino;Campainha.prot;Campainha</item>
+        <item>Light Control;Controlar_intensidade_luz.ino.standard.hex;Controlar_intensidade_luz.ino;Controlar_intensidade_luz.prot;Controlar_intensidade_luz</item>
+        <item>Button LED;LED_Botao.ino.standard.hex;LED_Botao.ino;LED_Botao.prot;LED_Botao</item>
+        <item>Light Post;Poste.ino.standard.hex;Poste.ino;Poste.prot;Poste</item>
+        <item>RGB;RGB.ino.standard.hex;RGB.ino;RGB.prot;RGB</item>
+    </string-array>
+
+
+
+
+    <string-array name="activity_2">
+        <item>Turn on Led by Serial;ligarledserial.ino.standard.hex;ligarledserial.ino;LED_Botao.prot;LED_Botao_Serial</item>
+        <item>Blink Led by Serial;Piscar_LED_Serial.ino.standard.hex;Piscar_LED_Serial.ino;Piscar_LED_Serial.prot;Piscar_LED_Serial</item>
+
+    </string-array>
+
+
+
+    <string name="rate_title">Rate Application</string>
+    <string name="rate_description">Like the App. Evaluate the App Arduino OTG - Mini Maker Lab</string>
+    <string name="rate_cancel">Cancel</string>
+    <string name="rate_ok">Rate Now</string>
+
+
+
+
+
+
+    <string name="country_prompt">Choose a country</string>
+        <string-array name="country_arrays">
+            <item>ARDUINO_UNO</item>
+            <item>ARDUINO_DUEMILANOVE_328</item>
+            <item>ARDUINO_DUEMILANOVE_168</item>
+            <item>ARDUINO_NANO_328</item>
+            <item>ARDUINO_NANO_168</item>
+            <item>ARDUINO_MEGA_2560_ADK</item>
+
+            <item>ARDUINO_MEGA_1280</item>
+        </string-array>
+
+
+
+</resources>

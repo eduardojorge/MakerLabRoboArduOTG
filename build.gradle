@@ -1,0 +1,23 @@
+buildscript {
+	repositories {
+		mavenCentral()
+		google()
+	}
+
+	dependencies {
+		classpath 'com.android.tools.build:gradle:3.4.1'
+	}
+}
+
+allprojects {
+	group = 'com.physicaloid'
+	version = '1.0'
+
+	repositories {
+		google()
+		jcenter()
+	}
+
+
+
+}

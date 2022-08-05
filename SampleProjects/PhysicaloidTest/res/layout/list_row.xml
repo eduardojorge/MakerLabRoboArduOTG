@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+
+    android:padding="5dip">
+
+    <LinearLayout
+        android:background="#f5f5f5"
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="30dip"
+            android:layout_height="50dip"
+            app:srcCompat="@drawable/processador" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+
+        android:layout_marginLeft="2dp"
+        android:text="Teste"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:gravity="center_vertical"
+        android:textColor="#040404"
+        android:textSize="14dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/textComando"
+        android:layout_width="110dip"
+        android:layout_height="match_parent"
+
+        android:background="@color/colorPrimary"
+
+        android:textSize="10dip"
+        android:gravity="center"
+        android:text="if(){}" />
+
+
+
+
+
+
+
+</LinearLayout>

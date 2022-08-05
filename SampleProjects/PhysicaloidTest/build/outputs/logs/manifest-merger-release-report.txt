@@ -1,0 +1,317 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:27:10-35:21
+	android:grantUriPermissions
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:31:14-48
+	android:authorities
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:29:14-61
+	android:exported
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:30:14-38
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:28:14-68
+manifest
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:2:1-146:13
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:2:1-146:13
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:2:1-146:13
+MERGED from [:PhysicaloidLibrary] D:\projetos_android\ArduinoRoboMML\PhysicaloidLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\22f397ae6ebdad843dbc0770cb5fc403\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8f41cc606b9115d2bb4600ce29eabdf6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8636faa6b093d0d5294503f30c8cef0c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\65da868873181241daced8eb7512f5a4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\98daf550e3765e919142acb6648e0030\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\fb01ca50bf2d417afd864fb34cec8089\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\0e099b6af00412fc4b0f83f2a1d8eb8b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\ba755f573325f3b0ad921a2b322b303e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\040babeb822f7d6e50e0d867dc35a92a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\f24d6629a299123c951f703dba8ff141\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\69f3ab9e1956a0ea2e64bcdb03a34a5d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7464828d61323fc9d7c06adab6eca6a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\9db55f135dd558088709b0e76b7091ca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\507607f2f0b05daa9a390fecec2e2cc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\2e1aed7072820aa59b2a9864fb8984f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\c483b133f010e8a99c534bd5a0b66424\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7208bc75399437b14469266316170126\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8b8c0426b928a644fb2862fb908987b2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\136b6449040070a1eb62d89a4f69bce3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\bdabef87bfa1ada1baf25644c0234cf6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\ba5e6516875acd3df7e86ad787c9cfee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\46b6f39b95fe7122414eed7c7218a4c3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\dd0b50c88cc72276ac6d258995e44fd6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\98f449f27bd0c082247b3a5dd664cfcb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\4fc2b285292cad3f1c874606abe0250c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\e142b6c40b0555e19d9b20fe1b4c120b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\81ff0692bb8148b3d5f2b39354e569d8\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:2:1-146:13
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:2:1-146:13
+	package
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:4:5-35
+	android:versionName
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:6:5-30
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:5:5-28
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+uses-feature#android.hardware.screen.portrait
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:9:19-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:11:4-73
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:11:21-71
+uses-feature#android.hardware.usb.host
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:13:6-63
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:13:20-60
+uses-permission#android.permission.INTERNET
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:15:22-78
+application
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:21:6-144:20
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:10:5-12:19
+MERGED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:10:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8f41cc606b9115d2bb4600ce29eabdf6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8f41cc606b9115d2bb4600ce29eabdf6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\c483b133f010e8a99c534bd5a0b66424\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\c483b133f010e8a99c534bd5a0b66424\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7208bc75399437b14469266316170126\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7208bc75399437b14469266316170126\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\c483b133f010e8a99c534bd5a0b66424\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:24:10-42
+	android:icon
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:23:10-44
+	android:allowBackup
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:22:10-36
+	android:theme
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:25:10-41
+activity#com.example.physicaloidtest.PhysicaloidTestActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:36:10-41:21
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:38:14-46
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:37:14-80
+activity#com.minimakerlabrobo.voice.MainActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:44:10-51:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:48:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:46:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:47:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:45:14-68
+activity#com.minimakerlabrobo.mmlbox.ProtoboardMMLBoxActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:53:10-59:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:57:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:55:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:56:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:54:14-81
+activity#com.minimakerlabrobo.MainActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:62:10-74:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:66:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:64:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:65:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:63:14-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:67:14-71:30
+action#android.intent.action.MAIN
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:68:18-70
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:68:26-67
+category#android.intent.category.LAUNCHER
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:70:18-78
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:70:28-75
+activity#com.minimakerlabrobo.arduino.ProtoboardArduinoActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:76:10-82:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:80:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:78:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:79:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:77:14-83
+activity#com.minimakerlabrobo.serial.BlinkLedActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:84:10-90:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:88:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:86:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:87:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:85:14-73
+activity#com.minimakerlabrobo.serial.TurnONActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:91:10-97:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:95:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:93:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:94:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:92:14-71
+activity#com.minimakerlabrobo.bluetooth.MainActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:99:10-105:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:103:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:101:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:102:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:100:14-72
+activity#com.minimakerlabrobo.SplashScreenActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:107:10-116:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:112:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:111:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:111:48-83
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:110:14-70
+activity#com.minimakerlabrobo.ProtoboardActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:118:10-124:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:122:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:120:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:121:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:119:14-68
+activity#com.minimakerlabrobo.UploadHexActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:126:10-132:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:130:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:128:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:129:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:127:14-67
+activity#com.minimakerlabrobo.CodeArduinoActivity
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:134:10-140:21
+	android:screenOrientation
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:138:14-50
+	android:label
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:136:14-46
+	android:configChanges
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:137:14-49
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:135:14-69
+uses-sdk
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+MERGED from [:PhysicaloidLibrary] D:\projetos_android\ArduinoRoboMML\PhysicaloidLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:PhysicaloidLibrary] D:\projetos_android\ArduinoRoboMML\PhysicaloidLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\22f397ae6ebdad843dbc0770cb5fc403\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\22f397ae6ebdad843dbc0770cb5fc403\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8f41cc606b9115d2bb4600ce29eabdf6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8f41cc606b9115d2bb4600ce29eabdf6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8636faa6b093d0d5294503f30c8cef0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8636faa6b093d0d5294503f30c8cef0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\65da868873181241daced8eb7512f5a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\65da868873181241daced8eb7512f5a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\98daf550e3765e919142acb6648e0030\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\98daf550e3765e919142acb6648e0030\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\fb01ca50bf2d417afd864fb34cec8089\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\fb01ca50bf2d417afd864fb34cec8089\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\0e099b6af00412fc4b0f83f2a1d8eb8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\0e099b6af00412fc4b0f83f2a1d8eb8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\ba755f573325f3b0ad921a2b322b303e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\ba755f573325f3b0ad921a2b322b303e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\040babeb822f7d6e50e0d867dc35a92a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\040babeb822f7d6e50e0d867dc35a92a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\f24d6629a299123c951f703dba8ff141\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\f24d6629a299123c951f703dba8ff141\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\69f3ab9e1956a0ea2e64bcdb03a34a5d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\69f3ab9e1956a0ea2e64bcdb03a34a5d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7464828d61323fc9d7c06adab6eca6a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7464828d61323fc9d7c06adab6eca6a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\9db55f135dd558088709b0e76b7091ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\9db55f135dd558088709b0e76b7091ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\507607f2f0b05daa9a390fecec2e2cc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\507607f2f0b05daa9a390fecec2e2cc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\2e1aed7072820aa59b2a9864fb8984f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\2e1aed7072820aa59b2a9864fb8984f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\c483b133f010e8a99c534bd5a0b66424\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\c483b133f010e8a99c534bd5a0b66424\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7208bc75399437b14469266316170126\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\7208bc75399437b14469266316170126\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8b8c0426b928a644fb2862fb908987b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\8b8c0426b928a644fb2862fb908987b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\136b6449040070a1eb62d89a4f69bce3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\136b6449040070a1eb62d89a4f69bce3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\bdabef87bfa1ada1baf25644c0234cf6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\bdabef87bfa1ada1baf25644c0234cf6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\ba5e6516875acd3df7e86ad787c9cfee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\ba5e6516875acd3df7e86ad787c9cfee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\46b6f39b95fe7122414eed7c7218a4c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\46b6f39b95fe7122414eed7c7218a4c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\dd0b50c88cc72276ac6d258995e44fd6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\dd0b50c88cc72276ac6d258995e44fd6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\98f449f27bd0c082247b3a5dd664cfcb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\98f449f27bd0c082247b3a5dd664cfcb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\4fc2b285292cad3f1c874606abe0250c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\4fc2b285292cad3f1c874606abe0250c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\e142b6c40b0555e19d9b20fe1b4c120b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\e142b6c40b0555e19d9b20fe1b4c120b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\81ff0692bb8148b3d5f2b39354e569d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\81ff0692bb8148b3d5f2b39354e569d8\AndroidManifest.xml:20:5-44
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+		INJECTED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:32:14-34:58
+	android:resource
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:34:18-56
+	android:name
+		ADDED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:33:18-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:8:22-71
+activity#app.akexorcist.bluetotohspp.library.DeviceList
+ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:11:9-83
+	android:name
+		ADDED from [com.akexorcist:bluetoothspp:1.0.0] C:\Users\Eduardo Jorge\.gradle\caches\transforms-2\files-2.1\b482292114983b2b506527606b44846d\AndroidManifest.xml:11:19-80
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from D:\projetos_android\ArduinoRoboMML\SampleProjects\PhysicaloidTest\AndroidManifest.xml:2:1-146:13 reason: app.akexorcist.bluetotohspp.library requested WRITE_EXTERNAL_STORAGE
